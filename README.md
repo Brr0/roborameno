@@ -1,7 +1,6 @@
 # roborameno
 
 V1
-
   -pohyb ramenem pomocí potenciometru
   -napájeno z arduina
 v1.1
