@@ -22,3 +22,6 @@ V2.2
 V2.3
   -pohyb servama pomocí matice a vyřešeny koncové hodnoty pro zabránení spálení serv 
   https://photos.app.goo.gl/H9jnBWcYMJBQ2fKY6
+  
+V2.4
+  -pohyb pomoci matice a podminky pro kontrolu před nastavením neplatných hodnot
