@@ -26,11 +26,7 @@ void loop()
   {
     for (int i = 0; i < SERVOS; i++)
     {
-      if (maxposition[i][0] < position[i][j] < maxposition[i][1])
-      {
-        servo[i].write(position[i][j]);
-      }
+      servo[i].write(map(position[i][j]),0,100,maxposition[i][0],maxposition[i][1]);
     }
   }
 }
-
