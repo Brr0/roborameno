@@ -25,3 +25,6 @@ V2.3
   
 V2.4
   -pohyb pomoci matice a podminky pro kontrolu před nastavením neplatných hodnot
+  
+V2.5
+  -implementace MAP funkce a zjednodušení kódu
