@@ -30,3 +30,4 @@ V2.5
   -implementace MAP funkce a zjednodušení kódu
 
 ![image](https://user-images.githubusercontent.com/47314980/142778892-de9c2001-89be-4d3a-9249-a956968e6a6c.png)
+![image](https://user-images.githubusercontent.com/47314980/145252788-20ba90d2-d66d-42f5-90b5-cd37cc80bc77.png)
