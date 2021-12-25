@@ -26,6 +26,6 @@ void loop() {
     servo3.write(position[2][i]);
     delay(20);
     servo4.write(position[3][i]);
-    delay(200);
+    delay(350);
   }
 }
