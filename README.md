@@ -20,14 +20,11 @@ V2.2
   -externí 5v zdroj vyřešil slabý 5V regulátor
   
 V2.3
-  -pohyb servama pomocí matice a vyřešeny koncové hodnoty pro zabránení spálení serv 
+  -pohyb servama pomocí matice
   https://photos.app.goo.gl/H9jnBWcYMJBQ2fKY6
-  
-V2.4
-  -pohyb pomoci matice a podminky pro kontrolu před nastavením neplatných hodnot
-  
+    
 V2.5
-  -implementace MAP funkce a zjednodušení kódu
+  -zjednodušení kódu
 
 ![image](https://user-images.githubusercontent.com/47314980/142778892-de9c2001-89be-4d3a-9249-a956968e6a6c.png)
 ![image](https://user-images.githubusercontent.com/47314980/145252788-20ba90d2-d66d-42f5-90b5-cd37cc80bc77.png)
