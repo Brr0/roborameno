@@ -11,11 +11,12 @@ Servo servo3;
 Servo servo4;
 
 //Piny na které jsou serva připojeny.
-int pins[4] = {2, 3, 4, 5};
-int position[SERVOS][POSITIONS] = {{45, 45, 60, 60, 90, 90, 60, 60}, {116, 116, 85, 85, 85, 85, 85, 85}, {123, 123, 150, 175, 175, 175, 175, 140}, {30, 10, 10, 10, 10, 30, 30, 30}};
+int pins[SERVOS] = {2, 3, 4, 5};
+int position[SERVOS][POSITIONS] = {{ 45, 60, 60, 90, 90, 60, 60, 45}, {116, 85, 85, 85, 85, 85, 85, 116}, {123, 150, 175, 175, 175, 175, 140, 123}, {6, 6, 6, 6, 30, 30, 30, 30}};
 
 void setup() {
-  attachInterrupt(digitalPinToInterrupt(18), sleep, LOW);
+  //systémové přerušení, které bez uzemnění pinu 18 tlačítkem pouze čeká
+  attachInterrupt(digitalPinToInterrupt(18), sleep, CHANGE);
   //Přiřazení objektů k digitálním výstupním pinům.
   servo1.attach(pins[0]);
   servo2.attach(pins[1]);
@@ -25,7 +26,7 @@ void setup() {
 
 //pozastavení práce ramena
 void sleep() {
-  delay(10);
+  delay(3000);
 }
 
 
@@ -39,6 +40,7 @@ void loop() {
     servo3.write(position[2][i]);
     delay(20);
     servo4.write(position[3][i]);
-    delay(350);
+    delay(100);
   }
+  delay(1200);
 }
