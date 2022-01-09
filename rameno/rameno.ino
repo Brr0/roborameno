@@ -12,7 +12,10 @@ Servo servo4;
 
 //Piny na které jsou serva připojeny.
 int pins[SERVOS] = {2, 3, 4, 5};
-int position[SERVOS][POSITIONS] = {{ 45, 60, 60, 90, 90, 60, 60, 45}, {116, 85, 85, 85, 85, 85, 85, 116}, {123, 150, 175, 175, 175, 175, 140, 123}, {6, 6, 6, 6, 30, 30, 30, 30}};
+int position[SERVOS][POSITIONS] = {{ 45, 60, 60, 90, 90, 60, 60, 45},
+                                  {116, 85, 85, 85, 85, 85, 85, 116},
+                                  {123, 150, 175, 175, 175, 175, 140, 123},
+                                  {6, 6, 6, 6, 30, 30, 30, 30}};
 
 void setup() {
   //systémové přerušení, které bez uzemnění pinu 18 tlačítkem pouze čeká
